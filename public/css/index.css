@@ -1,0 +1,55 @@
+* {
+    text-decoration: none !important;
+    font-family: 'Mulish', sans-serif;
+}
+.section__2-div {
+    background-image: url(../../public/assets/img-background.svg);
+    background-repeat: no-repeat;
+    background-size: 20%;
+}
+.section__2-text {
+    background-image: url(../../public/assets/img-pontilhado.png);
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: right bottom;
+}
+.section__6>div>h3{
+    margin-top: 1rem;
+}
+.footer-a{
+    border: 1px solid #000000FF;
+}
+footer div img {
+    filter: drop-shadow(8px 8px 4px #363636)
+}
+.footer-div:hover{
+   font-weight: 300 !important;
+    text-shadow: 0 0 2px #000, 0 0 4px #000;
+}
+@media screen and (min-width: 768px) {
+    .section__1>div>img {
+        width: 40%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .section__2-div,
+    .section__2-text {
+        background-image: none;
+    }
+}
+@media screen and (max-width: 425px) {
+    .section__1,
+    .section__2,
+    .section__3,
+    .section__4,
+    .section__5,
+    .section__6 , .section__7{
+        padding: 1rem 0 !important;
+    }
+       .section__5>div>a {
+        font-size: 1rem;
+    }
+    .section__3>div>h2,  .section__3>div>p{
+        text-align: justify;
+    }
+}
