@@ -23,8 +23,8 @@ footer div img {
     filter: drop-shadow(8px 8px 4px #363636)
 }
 .footer-div:hover{
-   font-weight: 300 !important;
-    text-shadow: 0 0 2px #000, 0 0 4px #000;
+   color: #dc3545 !important;
+    
 }
 @media screen and (min-width: 768px) {
     .section__1>div>img {
